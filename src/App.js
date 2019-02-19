@@ -1,0 +1,19 @@
+import React, { Component } from 'react';
+//import logo from './logo.svg';
+import './App.css';
+import InputFuzzy from './InputFuzzy.js';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+         <InputFuzzy type='triangle'/>
+         <InputFuzzy type='gauss'/>
+        </header>
+      </div>
+    );
+  }
+}
+
+export default App;
